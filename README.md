@@ -1,10 +1,8 @@
 # Prince Paul Reymond M Caparida — Personal Portfolio
 
-CCC181: Application Development and Emerging Technologies · Laboratory 1.
-
 ## Project description
 
-I am **Prince Paul Reymond M Caparida**, a third-year Information Technology student majoring in Network Systems. I created this personal portfolio for CCC181 Laboratory 1 to introduce myself, showcase my skills and projects, and share my interests in SOC operations, threat detection, defensive security, and networking.
+I am **Prince Paul Reymond M Caparida**, a third-year Information Technology student majoring in Network Systems. I created this personal portfolio to introduce myself, showcase my skills and projects, and share my interests in SOC operations, threat detection, defensive security, and networking.
 
 My portfolio includes my profile summary, skills and technologies, projects and achievements, and links to my LinkedIn and GitHub accounts. I featured **Compute Passport**, an **AI-Assisted Environmental Assurance & Disclosure Platform**, as well as this portfolio project.
 
@@ -12,7 +10,7 @@ My portfolio includes my profile summary, skills and technologies, projects and 
 
 ## Repository setup
 
-I started by cloning the course reference repository:
+I started by cloning the BSL HTTP server reference repository:
 
 ```powershell
 git clone https://github.com/msuiit-ph/BSL_HTTP_and_WebSocket.git
@@ -33,7 +31,7 @@ I completed these steps and pushed my project to GitHub. I can check the remote 
 
 ### 1. Install BSL v1.3.3
 
-The lab requires **Bonezegei Scripting Language v1.3.3**. On Windows, it can be installed through the Microsoft Store or the official Windows MSI, as described in the [installation guide](https://bonezegei.com/tutorials/bsl/install).
+I use **Bonezegei Scripting Language v1.3.3**. On Windows, it can be installed through the Microsoft Store or the official Windows MSI, as described in the [installation guide](https://bonezegei.com/tutorials/bsl/install).
 
 I checked my interpreter version in PowerShell:
 
@@ -97,7 +95,7 @@ I save my changes to my public GitHub repository using Git:
 
 ```powershell
 git add public/index.html app.bzg package.json README.md .gitignore .vscode scripts docs
-git commit -m "Build personal portfolio and document BSL lab setup"
+git commit -m "Update my personal portfolio"
 git push
 ```
 
@@ -115,7 +113,6 @@ I verified my portfolio using the BSL v1.3.3 interpreter and HTTP dependency. My
 | Missing URL | Reference fallback content returned |
 | Internal links | All anchors resolve to section IDs |
 | Package manifest | Valid JSON and MIT license declared |
-| Browser screenshot | Captured locally; image still needs to be added to this repository |
 | Repository visibility | Public, verified through GitHub API |
 
 The fallback displays a 404 page; its HTTP status is inherited from the library and is not asserted to be HTTP 404.
@@ -125,10 +122,6 @@ The fallback displays a 404 page; its HTTP status is inherited from the library 
 My terminal verification shows the BSL v1.3.3 runtime, dependency installation, and server execution:
 
 ![BSL terminal execution](docs/screenshots/terminal.png)
-
-### Browser screenshot
-
-I captured my portfolio running at `http://localhost:8000`, with the browser address bar visible. I still need to save that image as `docs/screenshots/browser.png` and embed it here before submission.
 
 ## Project structure
 
@@ -162,10 +155,6 @@ The profile summary, year level, major, skills, and project descriptions reflect
 For Compute Passport, I contributed to mobile development and served as my team's pitcher. Our team earned 1st Runner-Up at IEEE R10 SUMPAI 2026. I linked [our team's public announcement](https://lnkd.in/p/eyYrQnzv) in my portfolio.
 
 I based my server on the [MSU-IIT reference repository](https://github.com/msuiit-ph/BSL_HTTP_and_WebSocket) and used [Bonezegei Scripting Language](https://github.com/bonezegei/Bonezegei_Scripting_Language) as the runtime.
-
-## Submission
-
-My submission link is **https://github.com/RaiYuu08/Personal-Portfolio**. Before submitting it to the official CCC181 Section 3 Laboratory 1 activity on MOLE, I will make sure both required screenshots are included and display correctly on GitHub.
 
 ## License
 
