@@ -1,13 +1,13 @@
 {
- "name": "websocket",
+ "name": "prince-paul-portfolio",
  "version": "1.0.0",
- "description": "Bonezegei WebSocket Server",
+ "description": "Prince Paul Caparida's CCC181 portfolio served with BSL",
  "main": "app.bzg",
  "scripts": {
  "start": "bonezegei app.bzg"
  },
  "dependencies": {
- "http": "^1.0.0",
+ "http": "^1.0.0"
  },
  "license": "MIT"
 }
