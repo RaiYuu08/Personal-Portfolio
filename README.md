@@ -123,6 +123,12 @@ My terminal verification shows the BSL v1.3.3 runtime, dependency installation, 
 
 ![BSL terminal execution](docs/screenshots/terminal.png)
 
+### Browser screenshot
+
+My portfolio running at `http://localhost:8000`:
+
+![My portfolio running in the browser](docs/screenshots/browser.png)
+
 ## Project structure
 
 ```text
