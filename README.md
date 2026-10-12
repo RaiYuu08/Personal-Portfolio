@@ -1,10 +1,10 @@
-# Prince Paul Caparida — Personal Portfolio
+# Prince Paul Reymond M Caparida — Personal Portfolio
 
 CCC181: Application Development and Emerging Technologies · Laboratory 1.
 
 ## Project description
 
-A personal portfolio for **Prince Paul Caparida**, a third-year Information Technology student majoring in Network Systems. It introduces his interests in SOC operations, threat detection, defensive security, and networking, alongside development and design skills.
+A personal portfolio for **Prince Paul Reymond M Caparida**, a third-year Information Technology student majoring in Network Systems. It introduces his interests in SOC operations, threat detection, defensive security, and networking, alongside development and design skills.
 
 The page includes a profile summary, skills and technologies, projects and achievements, and contact links to LinkedIn and GitHub. Compute Passport is presented as an **AI-Assisted Environmental Assurance & Disclosure Platform**. The second project documents this portfolio itself.
 
@@ -113,8 +113,7 @@ Verification uses the actual BSL v1.3.3 interpreter and HTTP dependency.
 | Missing URL | Reference fallback content returned |
 | Internal links | All anchors resolve to section IDs |
 | Package manifest | Valid JSON and MIT license declared |
-| Desktop rendering | Actual Chrome capture |
-| Mobile rendering | Actual Chrome capture |
+| Browser screenshot | Pending: to be captured by the author |
 | Repository visibility | Public, verified through GitHub API |
 
 The fallback displays a 404 page; its HTTP status is inherited from the library and is not asserted to be HTTP 404.
@@ -127,15 +126,9 @@ Actual terminal execution with the BSL v1.3.3 runtime:
 
 ### Browser screenshot
 
-Actual Chrome rendering fetched from `http://localhost:8000` while the BSL server was running:
+Pending: the author will capture the rendered portfolio in a browser at `http://localhost:8000`.
 
-![Portfolio desktop rendering](docs/screenshots/browser-desktop.png)
-
-### Full page and mobile captures
-
-![Full portfolio](docs/screenshots/browser-full.png)
-
-![Mobile portfolio](docs/screenshots/browser-mobile.png)
+Run `.\scripts\start-lab.ps1`, open the page, and take a clear screenshot with the browser address bar visible. Save it in `docs/screenshots/`, then add its Markdown image link here before submission.
 
 ## Project structure
 
@@ -164,9 +157,9 @@ Personal-Portfolio/
 
 ## Content sources & attribution
 
-The profile summary, year level, major, skills, and Compute Passport description were supplied by Prince Paul Caparida. His [LinkedIn profile](https://www.linkedin.com/in/prince-paul-caparida-85871431b/) is linked as the primary contact channel. No email address, education institution, or mobile framework was guessed.
+The profile summary, year level, major, skills, and Compute Passport description were supplied by Prince Paul Reymond M Caparida. His [LinkedIn profile](https://www.linkedin.com/in/prince-paul-caparida-85871431b/) is linked as the primary contact channel. No email address, education institution, or mobile framework was guessed.
 
-A [public LinkedIn team announcement](https://ph.linkedin.com/in/gayneth-acol-976a8143a) credits Prince Paul with pitching and mobile development for Compute Passport and reports the team's 1st Runner-Up finish at IEEE R10 SUMPAI 2026. These details are attributed to that announcement.
+A [public LinkedIn team announcement](https://lnkd.in/p/eyYrQnzv) credits Prince Paul with pitching and mobile development for Compute Passport and reports the team's 1st Runner-Up finish at IEEE R10 SUMPAI 2026. These details are attributed to that announcement.
 
 Framework: [MSU-IIT reference repository](https://github.com/msuiit-ph/BSL_HTTP_and_WebSocket). Runtime: [Bonezegei Scripting Language](https://github.com/bonezegei/Bonezegei_Scripting_Language).
 

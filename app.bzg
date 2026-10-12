@@ -43,6 +43,6 @@ server.onDisconnect = function (clientId) {
    print("WebSocket disconnected! Client ID: " + clientId);
 };
 
-print("Prince Paul Caparida | CCC181 Laboratory 1");
+print("Prince Paul Reymond M Caparida | CCC181 Laboratory 1");
 print("Open http://localhost:8000 in your browser");
 server.run();
