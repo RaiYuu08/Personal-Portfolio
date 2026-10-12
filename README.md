@@ -119,7 +119,7 @@ The fallback displays a 404 page; its HTTP status is inherited from the library 
 
 ### Terminal screenshot
 
-My terminal verification shows the BSL v1.3.3 runtime, dependency installation, and server execution:
+My terminal screenshot shows the BSL v1.3.3 runtime and my portfolio server running on port 8000:
 
 ![BSL terminal execution](docs/screenshots/terminal.png)
 
